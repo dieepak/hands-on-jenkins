@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Building...'
+        echo 'Building.....'
       }
     }
     stage('Test Firefox') {
@@ -25,7 +25,7 @@ pipeline {
         }
       }
     }
-    stage('Deploy') {
+    stage('deploy') {
       steps {
         echo 'Deploy'
       }
